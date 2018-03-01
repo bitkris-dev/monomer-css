@@ -1,40 +1,40 @@
 .anim-forward {animation-fill-mode: forwards;}
 .anim-ease-in-out {-webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out;}
 
-.anim-duration-0 { @include anim-duration(0s); }
-.anim-duration-0-25 { @include anim-duration(0.25s); }
-.anim-duration-0-5 { @include anim-duration(0.5s); }
-.anim-duration-0-75 { @include anim-duration(0.75s); }
-.anim-duration-1 { @include anim-duration(1s); }
-.anim-duration-1-25 { @include anim-duration(1.25s); }
-.anim-duration-1-5 { @include anim-duration(1.5s); }
-.anim-duration-1-75 { @include anim-duration(1.75s); }
-.anim-duration-2 { @include anim-duration(2s); }
-.anim-duration-2-25 { @include anim-duration(2.25s); }
-.anim-duration-2-5 { @include anim-duration(2.5s); }
-.anim-duration-2-75 { @include anim-duration(2.75s); }
+.anim-duration-0 { @include prefix-cycler('animation-duration', 0s); }
+.anim-duration-0-25 { @include prefix-cycler('animation-duration', 0.25s); }
+.anim-duration-0-5 { @include prefix-cycler('animation-duration', 0.5s); }
+.anim-duration-0-75 { @include prefix-cycler('animation-duration', 0.75s); }
+.anim-duration-1 { @include prefix-cycler('animation-duration', 1s); }
+.anim-duration-1-25 { @include prefix-cycler('animation-duration', 1.25s); }
+.anim-duration-1-5 { @include prefix-cycler('animation-duration', 1.5s); }
+.anim-duration-1-75 { @include prefix-cycler('animation-duration', 1.75s); }
+.anim-duration-2 { @include prefix-cycler('animation-duration', 2s); }
+.anim-duration-2-25 { @include prefix-cycler('animation-duration', 2.25s); }
+.anim-duration-2-5 { @include prefix-cycler('animation-duration', 2.5s); }
+.anim-duration-2-75 { @include prefix-cycler('animation-duration', 2.75s); }
 
-.anim-delay-0 { @include anim-delay(0s); }
-.anim-delay-0-25 { @include anim-delay(0.25s); }
-.anim-delay-0-5 { @include anim-delay(0.5s); }
-.anim-delay-0-75 { @include anim-delay(0.75s); }
-.anim-delay-1 { @include anim-delay(1s); }
-.anim-delay-1-25 { @include anim-delay(1.25s); }
-.anim-delay-1-5 { @include anim-delay(1.5s); }
-.anim-delay-1-75 { @include anim-delay(1.75s); }
-.anim-delay-2 { @include anim-delay(2s); }
-.anim-delay-2-25 { @include anim-delay(2.25s); }
-.anim-delay-2-5 { @include anim-delay(2.5s); }
-.anim-delay-2-75 { @include anim-delay(2.75s); }
+.anim-delay-0 { @include prefix-cycler('animation-delay', 0s); }
+.anim-delay-0-25 { @include prefix-cycler('animation-delay', 0.25s); }
+.anim-delay-0-5 { @include prefix-cycler('animation-delay', 0.5s); }
+.anim-delay-0-75 { @include prefix-cycler('animation-delay', 0.75s); }
+.anim-delay-1 { @include prefix-cycler('animation-delay', 1s); }
+.anim-delay-1-25 { @include prefix-cycler('animation-delay', 1.25s); }
+.anim-delay-1-5 { @include prefix-cycler('animation-delay', 1.5s); }
+.anim-delay-1-75 { @include prefix-cycler('animation-delay', 1.75s); }
+.anim-delay-2 { @include prefix-cycler('animation-delay', 2s); }
+.anim-delay-2-25 { @include prefix-cycler('animation-delay', 2.25s); }
+.anim-delay-2-5 { @include prefix-cycler('animation-delay', 2.5s); }
+.anim-delay-2-75 { @include prefix-cycler('animation-delay', 2.75s); }
 
-.page-enter-active, .page-leave-active { @include transition(0.2s); }
+.page-enter-active, .page-leave-active { @include prefix-cycler('transition', 0.2s); }
 .page-enter, .page-leave-to { opacity: 0.3; }
 
 // --- V-TRANSITIONS ---
 
 	// fade
 .fade-enter-active, .fade-leave-active, .fade-enter, .fade-leave-to {
-	@include transition-prop('opacity .25s');
+	@include prefix-cycler('transition', 'opacity .25s');
 }
 .fade-enter, .fade-leave-to {
 	opacity: 0
@@ -42,11 +42,11 @@
 
 	// accordion
 .accordion-enter-active, .accordion-enter, {
-	@include transition-prop('transform .4s, opacity .4s');
+	@include prefix-cycler('transition', 'transform .4s, opacity .4s');
 }
 
 .accordion-leave-active, .accordion-leave-to {
-	@include transition-prop('opacity .4s, transform .4s');
+	@include prefix-cycler('transition', 'opacity .4s, transform .4s');
 }
 
 .accordion-enter, .accordion-leave-to {
@@ -54,7 +54,7 @@
 	transform: translateX(-10px)
 }
 
-.rotated-45 { transform: rotate(-45deg); @include transition(0.1s); }
+.rotated-45 { transform: rotate(-45deg); @include prefix-cycler('transition', 0.1s); }
 
 @keyframes bgLoad {
 	0% { background-position-x: 0px; }

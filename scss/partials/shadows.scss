@@ -18,13 +18,13 @@
 .boxshadow-info { box-shadow: $boxshadow-info; }
 
 @media print {
-.boxshadow-material { box-shadow: none; }
-.boxshadow1 { box-shadow: none; }
-.boxshadow2 { box-shadow: none; }
-.boxshadow3 { box-shadow: none; }
+	.boxshadow-material { box-shadow: none; }
+	.boxshadow1 { box-shadow: none; }
+	.boxshadow2 { box-shadow: none; }
+	.boxshadow3 { box-shadow: none; }
 
-.boxshadow-success { box-shadow: none; }
-.boxshadow-warning { box-shadow: none; }
-.boxshadow-danger { box-shadow: none; }
-.boxshadow-info { box-shadow: none; }
+	.boxshadow-success { box-shadow: none; }
+	.boxshadow-warning { box-shadow: none; }
+	.boxshadow-danger { box-shadow: none; }
+	.boxshadow-info { box-shadow: none; }
 }

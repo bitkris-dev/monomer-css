@@ -1,0 +1,6 @@
+@mixin prefix-cycler($rule,$value) {
+	#{$rule}: $value;
+	-webkit-#{$rule}: $value;
+	-moz-#{$rule}: $value;
+	-ms-#{$rule}: $value;
+}
