@@ -1,0 +1,9 @@
+@each $color, $hex in $colors {
+	.svg-#{$color} { &, & * { fill: $hex !important; color: $hex !important; } }
+	.svg-#{$color}-dark { &, & * { fill: darken($hex, 10%) !important; color: darken($hex, 10%) !important; } }
+	.svg-#{$color}-light { &, & * { fill: lighten($hex, 10%) !important; color: lighten($hex, 10%) !important; } }
+}
+
+@each $color, $hex in $colors-alt {
+	.svg-#{$color} { &, & * { fill: $hex !important; color: $hex !important; } }
+}

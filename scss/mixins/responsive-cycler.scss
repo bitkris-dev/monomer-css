@@ -1,0 +1,61 @@
+@mixin responsive-cycler($selector,$rules,$values) {
+	.#{$selector} {
+
+		@each $rule in $rules {
+			$i: index($rules, $rule);
+			@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+			@else { #{$rule}: #{$values} !important; }
+		}
+
+		@media (max-width: $screen-xs) {
+			&-uxs {
+				@each $rule in $rules {
+					$i: index($rules, $rule);
+					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+					@else { #{$rule}: #{$values} !important; }
+				}
+			}
+		}
+
+		@media (min-width: $screen-xs) and (max-width: $screen-sm) {
+			&-xs {
+				@each $rule in $rules {
+					$i: index($rules, $rule);
+					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+					@else { #{$rule}: #{$values} !important; }
+				}
+			}
+		}
+
+		@media (min-width: $screen-sm) and (max-width: $screen-md) {
+			&-sm {
+				@each $rule in $rules {
+					$i: index($rules, $rule);
+					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+					@else { #{$rule}: #{$values} !important; }
+				}
+			}
+		}
+
+		@media (min-width: $screen-md) and (max-width: $screen-lg) {
+			&-md {
+				@each $rule in $rules {
+					$i: index($rules, $rule);
+					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+					@else { #{$rule}: #{$values} !important; }
+				}
+			}
+		}
+
+		@media (min-width: $screen-lg) {
+			&-lg {
+				@each $rule in $rules {
+					$i: index($rules, $rule);
+					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
+					@else { #{$rule}: #{$values} !important; }
+				}
+			}
+		}
+
+	}
+}

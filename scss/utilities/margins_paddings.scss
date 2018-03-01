@@ -1,0 +1,123 @@
+// MARGINS
+
+@include responsive-cycler('v-margin-xsmall', 'margin-top' 'margin-bottom', '5px');
+@include responsive-cycler('v-margin-small', 'margin-top' 'margin-bottom', '10px');
+@include responsive-cycler('v-margin', 'margin-top' 'margin-bottom', '20px');
+@include responsive-cycler('v-margin-medium', 'margin-top' 'margin-bottom', '30px');
+@include responsive-cycler('v-margin-large', 'margin-top' 'margin-bottom', '40px');
+@include responsive-cycler('v-margin-xlarge', 'margin-top' 'margin-bottom', '80px');
+@include responsive-cycler('v-margin-xxlarge', 'margin-top' 'margin-bottom', '120px');
+@include responsive-cycler('v-margin-xxxlarge', 'margin-top' 'margin-bottom', '320px');
+
+@include responsive-cycler('h-margin-xsmall', 'margin-left' 'margin-right', '5px');
+@include responsive-cycler('h-margin-small', 'margin-left' 'margin-right', '10px');
+@include responsive-cycler('h-margin', 'margin-left' 'margin-right', '20px');
+@include responsive-cycler('h-margin-medium', 'margin-left' 'margin-right', '30px');
+@include responsive-cycler('h-margin-large', 'margin-left' 'margin-right', '40px');
+@include responsive-cycler('h-margin-xlarge', 'margin-left' 'margin-right', '80px');
+@include responsive-cycler('h-margin-xxlarge', 'margin-left' 'margin-right', '120px');
+@include responsive-cycler('h-margin-xxxlarge', 'margin-left' 'margin-right', '320px');
+
+@include responsive-cycler('margin-top-xsmall', 'margin-top', '5px');
+@include responsive-cycler('margin-top-small', 'margin-top', '10px');
+@include responsive-cycler('margin-top', 'margin-top', '20px');
+@include responsive-cycler('margin-top-medium', 'margin-top', '30px');
+@include responsive-cycler('margin-top-large', 'margin-top', '40px');
+@include responsive-cycler('margin-top-xlarge', 'margin-top', '80px');
+@include responsive-cycler('margin-top-xxlarge', 'margin-top', '120px');
+@include responsive-cycler('margin-top-xxxlarge', 'margin-top', '320px');
+
+@include responsive-cycler('margin-bottom-xsmall', 'margin-bottom', '5px');
+@include responsive-cycler('margin-bottom-small', 'margin-bottom', '10px');
+@include responsive-cycler('margin-bottom', 'margin-bottom', '20px');
+@include responsive-cycler('margin-bottom-medium', 'margin-bottom', '30px');
+@include responsive-cycler('margin-bottom-large', 'margin-bottom', '40px');
+@include responsive-cycler('margin-bottom-xlarge', 'margin-bottom', '80px');
+@include responsive-cycler('margin-bottom-xxlarge', 'margin-bottom', '120px');
+@include responsive-cycler('margin-bottom-xxxlarge', 'margin-bottom', '320px');
+
+@include responsive-cycler('margin-left-xsmall', 'margin-left', '5px');
+@include responsive-cycler('margin-left-small', 'margin-left', '10px');
+@include responsive-cycler('margin-left', 'margin-left', '20px');
+@include responsive-cycler('margin-left-medium', 'margin-left', '30px');
+@include responsive-cycler('margin-left-large', 'margin-left', '40px');
+@include responsive-cycler('margin-left-xlarge', 'margin-left', '80px');
+@include responsive-cycler('margin-left-xxlarge', 'margin-left', '120px');
+@include responsive-cycler('margin-left-xxxlarge', 'margin-left', '320px');
+
+@include responsive-cycler('margin-right-xsmall', 'margin-right', '5px');
+@include responsive-cycler('margin-right-small', 'margin-right', '10px');
+@include responsive-cycler('margin-right', 'margin-right', '20px');
+@include responsive-cycler('margin-right-medium', 'margin-right', '30px');
+@include responsive-cycler('margin-right-large', 'margin-right', '40px');
+@include responsive-cycler('margin-right-xlarge', 'margin-right', '80px');
+@include responsive-cycler('margin-right-xxlarge', 'margin-right', '120px');
+@include responsive-cycler('margin-right-xxxlarge', 'margin-right', '320px');
+
+@include responsive-cycler('no-margin', 'margin', '0px');
+@include responsive-cycler('no-margin-top', 'margin-top', '0px');
+@include responsive-cycler('no-margin-bottom', 'margin-bottom', '0px');
+@include responsive-cycler('no-margin-left', 'margin-left', '0px');
+@include responsive-cycler('no-margin-right', 'margin-right', '0px');
+
+// PADDING
+
+@include responsive-cycler('v-padding-xsmall', 'padding-top' 'padding-bottom', '5px');
+@include responsive-cycler('v-padding-small', 'padding-top' 'padding-bottom', '10px');
+@include responsive-cycler('v-padding', 'padding-top' 'padding-bottom', '20px');
+@include responsive-cycler('v-padding-medium', 'padding-top' 'padding-bottom', '30px');
+@include responsive-cycler('v-padding-large', 'padding-top' 'padding-bottom', '40px');
+@include responsive-cycler('v-padding-xlarge', 'padding-top' 'padding-bottom', '80px');
+@include responsive-cycler('v-padding-xxlarge', 'padding-top' 'padding-bottom', '120px');
+@include responsive-cycler('v-padding-xxxlarge', 'padding-top' 'padding-bottom', '320px');
+
+@include responsive-cycler('h-padding-xsmall', 'padding-left' 'padding-right', '5px');
+@include responsive-cycler('h-padding-small', 'padding-left' 'padding-right', '10px');
+@include responsive-cycler('h-padding', 'padding-left' 'padding-right', '20px');
+@include responsive-cycler('h-padding-medium', 'padding-left' 'padding-right', '30px');
+@include responsive-cycler('h-padding-large', 'padding-left' 'padding-right', '40px');
+@include responsive-cycler('h-padding-xlarge', 'padding-left' 'padding-right', '80px');
+@include responsive-cycler('h-padding-xxlarge', 'padding-left' 'padding-right', '120px');
+@include responsive-cycler('h-padding-xxxlarge', 'padding-left' 'padding-right', '320px');
+
+@include responsive-cycler('padding-top-xsmall', 'padding-top', '5px');
+@include responsive-cycler('padding-top-small', 'padding-top', '10px');
+@include responsive-cycler('padding-top', 'padding-top', '20px');
+@include responsive-cycler('padding-top-medium', 'padding-top', '30px');
+@include responsive-cycler('padding-top-large', 'padding-top', '40px');
+@include responsive-cycler('padding-top-xlarge', 'padding-top', '80px');
+@include responsive-cycler('padding-top-xxlarge', 'padding-top', '120px');
+@include responsive-cycler('padding-top-xxxlarge', 'padding-top', '320px');
+
+@include responsive-cycler('padding-bottom-xsmall', 'padding-bottom', '5px');
+@include responsive-cycler('padding-bottom-small', 'padding-bottom', '10px');
+@include responsive-cycler('padding-bottom', 'padding-bottom', '20px');
+@include responsive-cycler('padding-bottom-medium', 'padding-bottom', '30px');
+@include responsive-cycler('padding-bottom-large', 'padding-bottom', '40px');
+@include responsive-cycler('padding-bottom-xlarge', 'padding-bottom', '80px');
+@include responsive-cycler('padding-bottom-xxlarge', 'padding-bottom', '120px');
+@include responsive-cycler('padding-bottom-xxxlarge', 'padding-bottom', '320px');
+
+@include responsive-cycler('padding-left-xsmall', 'padding-left', '5px');
+@include responsive-cycler('padding-left-small', 'padding-left', '10px');
+@include responsive-cycler('padding-left', 'padding-left', '20px');
+@include responsive-cycler('padding-left-medium', 'padding-left', '30px');
+@include responsive-cycler('padding-left-large', 'padding-left', '40px');
+@include responsive-cycler('padding-left-xlarge', 'padding-left', '80px');
+@include responsive-cycler('padding-left-xxlarge', 'padding-left', '120px');
+@include responsive-cycler('padding-left-xxxlarge', 'padding-left', '320px');
+
+@include responsive-cycler('padding-right-xsmall', 'padding-right', '5px');
+@include responsive-cycler('padding-right-small', 'padding-right', '10px');
+@include responsive-cycler('padding-right', 'padding-right', '20px');
+@include responsive-cycler('padding-right-medium', 'padding-right', '30px');
+@include responsive-cycler('padding-right-large', 'padding-right', '40px');
+@include responsive-cycler('padding-right-xlarge', 'padding-right', '80px');
+@include responsive-cycler('padding-right-xxlarge', 'padding-right', '120px');
+@include responsive-cycler('padding-right-xxxlarge', 'padding-right', '320px');
+
+@include responsive-cycler('no-padding', 'padding', '0px');
+@include responsive-cycler('no-padding-top', 'padding-top', '0px');
+@include responsive-cycler('no-padding-bottom', 'padding-bottom', '0px');
+@include responsive-cycler('no-padding-left', 'padding-left', '0px');
+@include responsive-cycler('no-padding-right', 'padding-right', '0px');

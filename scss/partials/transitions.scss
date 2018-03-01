@@ -1,0 +1,25 @@
+.transition-0 { @include transition(0s); }
+.transition-0-25 { @include transition(0.25s); }
+.transition-0-5 { @include transition(0.5s); }
+.transition-0-75 { @include transition(0.75s); }
+.transition-1 { @include transition(1s); }
+.transition-1-25 { @include transition(1.25s); }
+.transition-1-5 { @include transition(1.5s); }
+.transition-1-75 { @include transition(1.75s); }
+.transition-2 { @include transition(2s); }
+.transition-2-25 { @include transition(2.25s); }
+.transition-2-5 { @include transition(2.5s); }
+.transition-2-75 { @include transition(2.75s); }
+
+.transition-delay-0 { @include transition-delay(0s); }
+.transition-delay-0-25 { @include transition-delay(0.25s); }
+.transition-delay-0-5 { @include transition-delay(0.5s); }
+.transition-delay-0-75 { @include transition-delay(0.75s); }
+.transition-delay-1 { @include transition-delay(1s); }
+.transition-delay-1-25 { @include transition-delay(1.25s); }
+.transition-delay-1-5 { @include transition-delay(1.5s); }
+.transition-delay-1-75 { @include transition-delay(1.75s); }
+.transition-delay-2 { @include transition-delay(2s); }
+.transition-delay-2-25 { @include transition-delay(2.25s); }
+.transition-delay-2-5 { @include transition-delay(2.5s); }
+.transition-delay-2-75 { @include transition-delay(2.75s); }

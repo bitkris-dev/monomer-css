@@ -1,0 +1,35 @@
+$greyBorder: darken(map-get($colors,grey), 4%);
+$greyBorder-dark: darken(darken(map-get($colors,grey), 10%),40%);
+
+@include responsive-cycler('border-top-grey', 'border-top', '1px #{$greyBorder} solid');
+@include responsive-cycler('border-bottom-grey', 'border-bottom', '1px #{$greyBorder} solid');
+@include responsive-cycler('border-left-grey', 'border-left', '1px #{$greyBorder} solid');
+@include responsive-cycler('border-right-grey', 'border-right', '1px #{$greyBorder} solid');
+
+@include responsive-cycler('border-top-grey-dark', 'border-top', '1px #{$greyBorder-dark} solid');
+@include responsive-cycler('border-bottom-grey-dark', 'border-bottom', '1px #{$greyBorder-dark} solid');
+@include responsive-cycler('border-left-grey-dark', 'border-left', '1px #{$greyBorder-dark} solid');
+@include responsive-cycler('border-right-grey-dark', 'border-right', '1px #{$greyBorder-dark} solid');
+
+@include responsive-cycler('no-border-radius', 'border-radius', '0px');
+@include responsive-cycler('no-border', 'border', 'none');
+
+.bordered {
+	border-width: 8px;
+	border-style: solid;
+}
+
+.thin-border {
+	border-width: 1px;
+	border-style: solid;
+}
+
+@each $color, $hex in $colors {
+	.border-#{$color} { border-color: $hex !important; }
+	.border-#{$color}-dark { border-color: darken($hex, 10%) !important; }
+	.border-#{$color}-light { border-color: lighten($hex, 10%) !important; }
+}
+
+@each $color, $hex in $colors-alt {
+	.border-#{$color} { border-color: $hex !important; }
+}

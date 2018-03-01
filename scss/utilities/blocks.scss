@@ -1,0 +1,3 @@
+@include responsive-cycler('inline-block', 'display', 'inline-block');
+@include responsive-cycler('block-center', 'max-width' 'margin', '100%' '0 auto');
+@include responsive-cycler('block-full', 'width', '100%');

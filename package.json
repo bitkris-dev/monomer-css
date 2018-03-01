@@ -1,0 +1,24 @@
+{
+  "name": "monomer-css",
+  "version": "0.1.0",
+  "description": "Atomic CSS framework",
+	"author": "Kristian Barrese <kristian.webdeveloper@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "scss",
+    "css"
+  ],
+  "scripts": {
+    "build": "node-sass --output-style=compressed scss/monomer.scss > css/monomer.min.css && node-sass scss/monomer.scss > css/monomer.css"
+  },
+  "keywords": [
+    "monomer",
+    "atomic",
+    "css",
+    "scss"
+  ],
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

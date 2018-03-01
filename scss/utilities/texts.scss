@@ -1,0 +1,36 @@
+@include responsive-cycler('text-lowercase', 'text-transform', 'lowercase');
+@include responsive-cycler('text-uppercase', 'text-transform', 'uppercase');
+@include responsive-cycler('text-capitalize', 'text-transform', 'capitalize');
+
+@include responsive-cycler('text-underlined', 'text-decoration', 'underline');
+
+@include responsive-cycler('text-light', 'font-weight', '300');
+@include responsive-cycler('text-normal', 'font-weight', '400');
+@include responsive-cycler('text-bold', 'font-weight', '700');
+@include responsive-cycler('text-extrabold', 'font-weight', '900');
+@include responsive-cycler('text-italic', 'font-style', 'italic');
+@include responsive-cycler('text-ellipsed', 'white-space' 'text-overflow' 'overflow', 'nowrap' 'ellipsis' 'hidden');
+
+@include responsive-cycler('text-spaced-0', 'letter-spacing', '0');
+@include responsive-cycler('text-spaced-0-h', 'letter-spacing', '0.5px');
+@include responsive-cycler('text-spaced-1', 'letter-spacing', '1px');
+@include responsive-cycler('text-spaced-2', 'letter-spacing', '2px');
+
+@include responsive-cycler('text-left', 'text-align' 'align-content' 'justify-content', 'left' 'left' 'left');
+@include responsive-cycler('text-right', 'text-align' 'align-content' 'justify-content', 'right' 'right' 'right');
+@include responsive-cycler('text-center', 'text-align' 'align-content' 'justify-content', 'center' 'center' 'center');
+@include responsive-cycler('text-justify', 'text-align' 'align-content', 'justify' 'justify');
+
+@each $color, $hex in $colors {
+	.tc-#{$color} { color: $hex !important; }
+	.tc-#{$color}-dark { color: darken($hex, 10%) !important; }
+	.tc-#{$color}-light { color: lighten($hex, 10%) !important; }
+}
+
+@each $color, $hex in $colors-alt {
+	.tc-#{$color} { color: $hex !important; }
+}
+
+p { font-size: $font-size-base; }
+
+h1, h2, h3, h4, h5, h6 { font-family: $font-title; }

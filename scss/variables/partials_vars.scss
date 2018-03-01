@@ -1,0 +1,16 @@
+$textshadow1: 0px 2px 2px black !important;
+$textshadow2: 1px 2px 5px rgba(0,0,0,0.70) !important;
+$textshadow3: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+
+$boxshadow-material: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+$boxshadow1: 0px 2px 30px rgba(0, 0, 0, 0.1) !important;
+$boxshadow2: 0 1px 10px rgba(0,0,0,.24) !important;
+$boxshadow3: 0 0 15px rgba(0,0,0,.4) !important;
+
+$boxshadow-green: 0px 4px 8px transparentize(map-get($colors, green), 0.75) !important;
+$boxshadow-blue: 0px 4px 8px transparentize(map-get($colors, blue), 0.75) !important;
+
+$boxshadow-success: 0px 0px 10px -3px map-get($colors, green) !important;
+$boxshadow-warning: 0px 0px 10px -3px map-get($colors, orange) !important;
+$boxshadow-danger: 0px 0px 10px -3px map-get($colors, red) !important;
+$boxshadow-info: 0px 0px 10px -3px map-get($colors, blue) !important;

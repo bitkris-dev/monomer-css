@@ -1,0 +1,20 @@
+@mixin transition($s) {
+  transition: all ease-out $s;
+  -moz-transition: all ease-out $s;
+  -ms-transition: all ease-out $s;
+  transition: all ease-out $s;
+}
+
+@mixin transition-prop($prop) {
+  transition: unquote($prop);
+  -moz-transition: unquote($prop);
+  -ms-transition: unquote($prop);
+  transition: unquote($prop);
+}
+
+@mixin transition-delay($s) {
+  -webkit-transition-delay: $s;
+  -moz-transition-delay: $s;
+  -ms-transition-delay: $s;
+  transition-delay: $s;
+}

@@ -1,0 +1,11 @@
+.bg-transparent { background-color: transparent !important; }
+
+@each $color, $hex in $colors {
+	.bg-#{$color} { background-color: $hex !important; }
+	.bg-#{$color}-dark { background-color: darken($hex, 10%) !important; }
+	.bg-#{$color}-light { background-color: lighten($hex, 10%) !important; }
+}
+
+@each $color, $hex in $colors-alt {
+	.bg-#{$color} { background-color: $hex !important; }
+}

@@ -1,0 +1,22 @@
+.validation {
+	font-size: $font-size-small;
+	margin-top: -15px;
+	margin-bottom: 5px;
+	display: block;
+
+	&.validation-success {
+		color: adjust-hue(darken(map-get($colors,green),10%), -30deg);
+	}
+
+	&.validation-warning {
+		color: map-get($colors, orange);
+	}
+
+	&.validation-danger {
+		color: darken(map-get($colors,red), 10%);
+	}
+
+	&.validation-info {
+		color: map-get($colors, blue);
+	}
+}

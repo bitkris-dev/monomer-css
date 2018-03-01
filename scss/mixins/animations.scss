@@ -1,0 +1,20 @@
+@mixin animation($value) {
+  -webkit-animation: $value;
+  -moz-animation: $value;
+  -ms-animation: $value;
+  animation: $value;
+}
+
+@mixin anim-duration($s) {
+  -webkit-animation-duration: $s;
+  -moz-animation-duration: $s;
+  -ms-animation-duration: $s;
+  animation-duration: $s;
+}
+
+@mixin anim-delay($s) {
+  -webkit-animation-delay: $s;
+  -moz-animation-delay: $s;
+  -ms-animation-delay: $s;
+  animation-delay: $s;
+}

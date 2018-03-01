@@ -1,0 +1,10 @@
+@include responsive-cycler('flex', 'display', 'flex');
+
+@include responsive-cycler('flex-row-reverse', 'flex-direction', 'row-reverse');
+@include responsive-cycler('flex-column-reverse', 'flex-direction', 'column-reverse');
+
+@include responsive-cycler('flex-wrap', 'flex-wrap', 'wrap');
+@include responsive-cycler('flex-end', 'align-items', 'flex-end');
+@include responsive-cycler('flex-stretch', 'align-items', 'stretch');
+@include responsive-cycler('flex-baseline', 'align-items', 'baseline');
+@include responsive-cycler('flex-vcenter', 'display' 'align-items' 'justify-content', 'flex' 'center' 'center');
