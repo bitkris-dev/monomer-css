@@ -6,6 +6,6 @@ $font-size-md-alt: 26px;
 $font-size-lg: 38px;
 $font-size-xlg: 70px;
 
-$font-default: unquote("Helvetica, Noto Sans, Georgia, Arial, serif");
-$font-title: unquote("Helvetica, Noto Sans, Georgia, Arial, serif");
+$font-default: unquote("Helvetica, Noto Sans, Georgia, Arial, serif") !default;
+$font-title: unquote("Helvetica, Noto Sans, Georgia, Arial, serif") !default;
 $text-color: #444444;
