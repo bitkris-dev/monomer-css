@@ -1,15 +1,15 @@
-.transition-0 { @include prefix-cycler('transition', 0s); }
-.transition-0-25 { @include prefix-cycler('transition', 0.25s); }
-.transition-0-5 { @include prefix-cycler('transition', 0.5s); }
-.transition-0-75 { @include prefix-cycler('transition', 0.75s); }
-.transition-1 { @include prefix-cycler('transition', 1s); }
-.transition-1-25 { @include prefix-cycler('transition', 1.25s); }
-.transition-1-5 { @include prefix-cycler('transition', 1.5s); }
-.transition-1-75 { @include prefix-cycler('transition', 1.75s); }
-.transition-2 { @include prefix-cycler('transition', 2s); }
-.transition-2-25 { @include prefix-cycler('transition', 2.25s); }
-.transition-2-5 { @include prefix-cycler('transition', 2.5s); }
-.transition-2-75 { @include prefix-cycler('transition', 2.75s); }
+.transition-0 { @include prefix-cycler('transition', '0s'); }
+.transition-0-25 { @include prefix-cycler('transition', '0.25s'); }
+.transition-0-5 { @include prefix-cycler('transition', '0.5s'); }
+.transition-0-75 { @include prefix-cycler('transition', '0.75s'); }
+.transition-1 { @include prefix-cycler('transition', '1s'); }
+.transition-1-25 { @include prefix-cycler('transition', '1.25s'); }
+.transition-1-5 { @include prefix-cycler('transition', '1.5s'); }
+.transition-1-75 { @include prefix-cycler('transition', '1.75s'); }
+.transition-2 { @include prefix-cycler('transition', '2s'); }
+.transition-2-25 { @include prefix-cycler('transition', '2.25s'); }
+.transition-2-5 { @include prefix-cycler('transition', '2.5s'); }
+.transition-2-75 { @include prefix-cycler('transition', '2.75s'); }
 
 .transition-delay-0 { @include prefix-cycler('transition-delay', 0s); }
 .transition-delay-0-25 { @include prefix-cycler('transition-delay', 0.25s); }

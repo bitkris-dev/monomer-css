@@ -1,4 +1,4 @@
-.blur { filter: blur(10px); @include prefix-cycler('transition', 0.25s); }
+.blur { filter: blur(10px); @include prefix-cycler('transition', '0.25s'); }
 
 .cursor-pointer { cursor: pointer; }
 .no-pointer-cascade { * { pointer-events: none; } }

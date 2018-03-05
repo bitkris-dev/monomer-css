@@ -27,7 +27,7 @@
 .anim-delay-2-5 { @include prefix-cycler('animation-delay', 2.5s); }
 .anim-delay-2-75 { @include prefix-cycler('animation-delay', 2.75s); }
 
-.page-enter-active, .page-leave-active { @include prefix-cycler('transition', 0.2s); }
+.page-enter-active, .page-leave-active { @include prefix-cycler('transition', '0.2s'); }
 .page-enter, .page-leave-to { opacity: 0.3; }
 
 // --- V-TRANSITIONS ---
@@ -54,7 +54,7 @@
 	transform: translateX(-10px)
 }
 
-.rotated-45 { transform: rotate(-45deg); @include prefix-cycler('transition', 0.1s); }
+.rotated-45 { transform: rotate(-45deg); @include prefix-cycler('transition', '0.1s'); }
 
 @keyframes bgLoad {
 	0% { background-position-x: 0px; }
