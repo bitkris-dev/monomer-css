@@ -1,6 +1,6 @@
 @mixin prefix-cycler($rule,$value) {
-	#{$rule}: $value;
-	-webkit-#{$rule}: $value;
-	-moz-#{$rule}: $value;
-	-ms-#{$rule}: $value;
+	#{$rule}: unquote($value);
+	-webkit-#{$rule}: unquote($value);
+	-moz-#{$rule}: unquote($value);
+	-ms-#{$rule}: unquote($value);
 }
