@@ -267,25 +267,25 @@
   opacity: 0.3; }
 
 .fade-enter-active, .fade-leave-active, .fade-enter, .fade-leave-to {
-  transition: "opacity .25s";
-  -webkit-transition: "opacity .25s";
-  -moz-transition: "opacity .25s";
-  -ms-transition: "opacity .25s"; }
+  transition: opacity .25s;
+  -webkit-transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -ms-transition: opacity .25s; }
 
 .fade-enter, .fade-leave-to {
   opacity: 0; }
 
 .accordion-enter-active, .accordion-enter {
-  transition: "transform .4s, opacity .4s";
-  -webkit-transition: "transform .4s, opacity .4s";
-  -moz-transition: "transform .4s, opacity .4s";
-  -ms-transition: "transform .4s, opacity .4s"; }
+  transition: transform .4s, opacity .4s;
+  -webkit-transition: transform .4s, opacity .4s;
+  -moz-transition: transform .4s, opacity .4s;
+  -ms-transition: transform .4s, opacity .4s; }
 
 .accordion-leave-active, .accordion-leave-to {
-  transition: "opacity .4s, transform .4s";
-  -webkit-transition: "opacity .4s, transform .4s";
-  -moz-transition: "opacity .4s, transform .4s";
-  -ms-transition: "opacity .4s, transform .4s"; }
+  transition: opacity .4s, transform .4s;
+  -webkit-transition: opacity .4s, transform .4s;
+  -moz-transition: opacity .4s, transform .4s;
+  -ms-transition: opacity .4s, transform .4s; }
 
 .accordion-enter, .accordion-leave-to {
   opacity: 0;
