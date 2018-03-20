@@ -1,5 +1,10 @@
-@include responsive-cycler('no-border-radius', 'border-radius', '0px');
 @include responsive-cycler('no-border', 'border', 'none');
+
+@include responsive-cycler('no-border-radius', 'border-radius', '0px');
+@include responsive-cycler('no-border-top-left-radius', 'border-top-left-radius', '0px');
+@include responsive-cycler('no-border-top-right-radius', 'border-top-right-radius', '0px');
+@include responsive-cycler('no-border-bottom-left-radius', 'border-bottom-left-radius', '0px');
+@include responsive-cycler('no-border-bottom-right-radius', 'border-bottom-right-radius', '0px');
 
 .bordered {
 	border-width: 8px;
