@@ -1,11 +1,11 @@
 // Typography
-$font-size-small: 14px;
-$font-size-base: 18px;
-$font-size-md: 24px;
-$font-size-md-alt: 26px;
-$font-size-lg: 38px;
-$font-size-xlg: 70px;
+$font-size-small: 14px !default;
+$font-size-base: 18px !default;
+$font-size-md: 24px !default;
+$font-size-md-alt: 26px !default;
+$font-size-lg: 38px !default;
+$font-size-xlg: 70px !default;
 
 $font-default: unquote("Helvetica, Noto Sans, Georgia, Arial, serif") !default;
 $font-title: unquote("Helvetica, Noto Sans, Georgia, Arial, serif") !default;
-$text-color: #444444;
+$text-color: #444444 !default;
