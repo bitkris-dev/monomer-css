@@ -768,6 +768,24 @@
     .block-full-lg {
       width: 100% !important; } }
 
+.height-full {
+  height: 100% !important; }
+  @media (max-width: 300px) {
+    .height-full-uxs {
+      height: 100% !important; } }
+  @media (min-width: 300px) and (max-width: 769px) {
+    .height-full-xs {
+      height: 100% !important; } }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .height-full-sm {
+      height: 100% !important; } }
+  @media (min-width: 1024px) and (max-width: 1216px) {
+    .height-full-md {
+      height: 100% !important; } }
+  @media (min-width: 1216px) {
+    .height-full-lg {
+      height: 100% !important; } }
+
 .hidden {
   display: none !important; }
   @media (max-width: 300px) {
