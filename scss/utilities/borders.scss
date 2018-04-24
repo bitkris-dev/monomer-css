@@ -17,11 +17,11 @@
 }
 
 @each $color, $hex in $colors {
-	.border-#{$color} { border-color: $hex !important; }
-	.border-#{$color}-dark { border-color: darken($hex, 10%) !important; }
-	.border-#{$color}-light { border-color: lighten($hex, 10%) !important; }
+	.border-#{$color} { border: 1px solid $hex !important; }
+	.border-#{$color}-dark { border: 1px solid darken($hex, 10%) !important; }
+	.border-#{$color}-light { border: 1px solid lighten($hex, 10%) !important; }
 }
 
 @each $color, $hex in $colors-alt {
-	.border-#{$color} { border-color: $hex !important; }
+	.border-#{$color} { border: 1px solid $hex !important; }
 }

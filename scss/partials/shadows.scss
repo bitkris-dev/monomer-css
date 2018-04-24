@@ -17,6 +17,8 @@
 .boxshadow-danger { box-shadow: $boxshadow-danger; }
 .boxshadow-info { box-shadow: $boxshadow-info; }
 
+.boxshadow-none { box-shadow: none !important; }
+
 @media print {
 	.boxshadow-material { box-shadow: none; }
 	.boxshadow1 { box-shadow: none; }
