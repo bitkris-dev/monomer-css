@@ -1,3 +1,4 @@
+@include responsive-cycler('offset-top-xxsmall', 'transform' 'margin-bottom', 'translateY(-5px)' '25px');
 @include responsive-cycler('offset-top-xsmall', 'transform' 'margin-bottom', 'translateY(-5px)' '-5px');
 @include responsive-cycler('offset-top-small', 'transform' 'margin-bottom', 'translateY(-10px)' '-10px');
 @include responsive-cycler('offset-top', 'transform' 'margin-bottom', 'translateY(-20px)' '-20px');
@@ -7,6 +8,7 @@
 @include responsive-cycler('offset-top-xxlarge', 'transform' 'margin-bottom', 'translateY(-120px)' '-120px');
 @include responsive-cycler('offset-top-xxxlarge', 'transform' 'margin-bottom', 'translateY(-230px)' '-230px');
 
+@include responsive-cycler('offset-bottom-xxsmall', 'transform' 'margin-top', 'translateY(5px)' '25px');
 @include responsive-cycler('offset-bottom-xsmall', 'transform' 'margin-top', 'translateY(5px)' '-5px');
 @include responsive-cycler('offset-bottom-small', 'transform' 'margin-top', 'translateY(10px)' '-10px');
 @include responsive-cycler('offset-bottom', 'transform' 'margin-top', 'translateY(20px)' '-20px');
@@ -16,6 +18,7 @@
 @include responsive-cycler('offset-bottom-xxlarge', 'transform' 'margin-top', 'translateY(120px)' '-120px');
 @include responsive-cycler('offset-bottom-xxxlarge', 'transform' 'margin-top', 'translateY(230px)' '-230px');
 
+@include responsive-cycler('offset-left-xxsmall', 'transform' 'margin-right', 'translateX(-5px)' '25px');
 @include responsive-cycler('offset-left-xsmall', 'transform' 'margin-right', 'translateX(-5px)' '-5px');
 @include responsive-cycler('offset-left-small', 'transform' 'margin-right', 'translateX(-10px)' '-10px');
 @include responsive-cycler('offset-left', 'transform' 'margin-right', 'translateX(-20px)' '-20px');
@@ -25,6 +28,7 @@
 @include responsive-cycler('offset-left-xxlarge', 'transform' 'margin-right', 'translateX(-120px)' '-120px');
 @include responsive-cycler('offset-left-xxxlarge', 'transform' 'margin-right', 'translateX(-230px)' '-230px');
 
+@include responsive-cycler('offset-right-xxsmall', 'transform' 'margin-left', 'translateX(5px)' '25px');
 @include responsive-cycler('offset-right-xsmall', 'transform' 'margin-left', 'translateX(5px)' '-5px');
 @include responsive-cycler('offset-right-small', 'transform' 'margin-left', 'translateX(10px)' '-10px');
 @include responsive-cycler('offset-right', 'transform' 'margin-left', 'translateX(20px)' '-20px');
@@ -37,6 +41,7 @@
 
 
 
+@include responsive-cycler('offmove-top-xxsmall', 'transform', 'translateY(-2px)');
 @include responsive-cycler('offmove-top-xsmall', 'transform', 'translateY(-5px)');
 @include responsive-cycler('offmove-top-small', 'transform', 'translateY(-10px)');
 @include responsive-cycler('offmove-top', 'transform', 'translateY(-20px)');
@@ -46,6 +51,7 @@
 @include responsive-cycler('offmove-top-xxlarge', 'transform', 'translateY(-120px)');
 @include responsive-cycler('offmove-top-xxxlarge', 'transform', 'translateY(-230px)');
 
+@include responsive-cycler('offmove-bottom-xxsmall', 'transform', 'translateY(2px)');
 @include responsive-cycler('offmove-bottom-xsmall', 'transform', 'translateY(5px)');
 @include responsive-cycler('offmove-bottom-small', 'transform', 'translateY(10px)');
 @include responsive-cycler('offmove-bottom', 'transform', 'translateY(20px)');
@@ -55,6 +61,7 @@
 @include responsive-cycler('offmove-bottom-xxlarge', 'transform', 'translateY(120px)');
 @include responsive-cycler('offmove-bottom-xxxlarge', 'transform', 'translateY(230px)');
 
+@include responsive-cycler('offmove-left-xxsmall', 'transform', 'translateX(-2px)');
 @include responsive-cycler('offmove-left-xsmall', 'transform', 'translateX(-5px)');
 @include responsive-cycler('offmove-left-small', 'transform', 'translateX(-10px)');
 @include responsive-cycler('offmove-left', 'transform', 'translateX(-20px)');
@@ -64,6 +71,7 @@
 @include responsive-cycler('offmove-left-xxlarge', 'transform', 'translateX(-120px)');
 @include responsive-cycler('offmove-left-xxxlarge', 'transform', 'translateX(-230px)');
 
+@include responsive-cycler('offmove-right-xxsmall', 'transform', 'translateX(2px)');
 @include responsive-cycler('offmove-right-xsmall', 'transform', 'translateX(5px)');
 @include responsive-cycler('offmove-right-small', 'transform', 'translateX(10px)');
 @include responsive-cycler('offmove-right', 'transform', 'translateX(20px)');

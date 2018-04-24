@@ -1,5 +1,6 @@
 // MARGINS
 
+@include responsive-cycler('v-margin-xxsmall', 'margin-top' 'margin-bottom', '2px');
 @include responsive-cycler('v-margin-xsmall', 'margin-top' 'margin-bottom', '5px');
 @include responsive-cycler('v-margin-small', 'margin-top' 'margin-bottom', '10px');
 @include responsive-cycler('v-margin', 'margin-top' 'margin-bottom', '20px');
@@ -9,6 +10,7 @@
 @include responsive-cycler('v-margin-xxlarge', 'margin-top' 'margin-bottom', '120px');
 @include responsive-cycler('v-margin-xxxlarge', 'margin-top' 'margin-bottom', '320px');
 
+@include responsive-cycler('h-margin-xxsmall', 'margin-left' 'margin-right', '2px');
 @include responsive-cycler('h-margin-xsmall', 'margin-left' 'margin-right', '5px');
 @include responsive-cycler('h-margin-small', 'margin-left' 'margin-right', '10px');
 @include responsive-cycler('h-margin', 'margin-left' 'margin-right', '20px');
@@ -18,6 +20,7 @@
 @include responsive-cycler('h-margin-xxlarge', 'margin-left' 'margin-right', '120px');
 @include responsive-cycler('h-margin-xxxlarge', 'margin-left' 'margin-right', '320px');
 
+@include responsive-cycler('margin-top-xxsmall', 'margin-top', '2px');
 @include responsive-cycler('margin-top-xsmall', 'margin-top', '5px');
 @include responsive-cycler('margin-top-small', 'margin-top', '10px');
 @include responsive-cycler('margin-top', 'margin-top', '20px');
@@ -27,6 +30,7 @@
 @include responsive-cycler('margin-top-xxlarge', 'margin-top', '120px');
 @include responsive-cycler('margin-top-xxxlarge', 'margin-top', '320px');
 
+@include responsive-cycler('margin-bottom-xxsmall', 'margin-bottom', '2px');
 @include responsive-cycler('margin-bottom-xsmall', 'margin-bottom', '5px');
 @include responsive-cycler('margin-bottom-small', 'margin-bottom', '10px');
 @include responsive-cycler('margin-bottom', 'margin-bottom', '20px');
@@ -36,6 +40,7 @@
 @include responsive-cycler('margin-bottom-xxlarge', 'margin-bottom', '120px');
 @include responsive-cycler('margin-bottom-xxxlarge', 'margin-bottom', '320px');
 
+@include responsive-cycler('margin-left-xxsmall', 'margin-left', '2px');
 @include responsive-cycler('margin-left-xsmall', 'margin-left', '5px');
 @include responsive-cycler('margin-left-small', 'margin-left', '10px');
 @include responsive-cycler('margin-left', 'margin-left', '20px');
@@ -45,6 +50,7 @@
 @include responsive-cycler('margin-left-xxlarge', 'margin-left', '120px');
 @include responsive-cycler('margin-left-xxxlarge', 'margin-left', '320px');
 
+@include responsive-cycler('margin-right-xxsmall', 'margin-right', '2px');
 @include responsive-cycler('margin-right-xsmall', 'margin-right', '5px');
 @include responsive-cycler('margin-right-small', 'margin-right', '10px');
 @include responsive-cycler('margin-right', 'margin-right', '20px');
@@ -62,6 +68,7 @@
 
 // PADDING
 
+@include responsive-cycler('v-padding-xxsmall', 'padding-top' 'padding-bottom', '2px');
 @include responsive-cycler('v-padding-xsmall', 'padding-top' 'padding-bottom', '5px');
 @include responsive-cycler('v-padding-small', 'padding-top' 'padding-bottom', '10px');
 @include responsive-cycler('v-padding', 'padding-top' 'padding-bottom', '20px');
@@ -71,6 +78,7 @@
 @include responsive-cycler('v-padding-xxlarge', 'padding-top' 'padding-bottom', '120px');
 @include responsive-cycler('v-padding-xxxlarge', 'padding-top' 'padding-bottom', '320px');
 
+@include responsive-cycler('h-padding-xxsmall', 'padding-left' 'padding-right', '2px');
 @include responsive-cycler('h-padding-xsmall', 'padding-left' 'padding-right', '5px');
 @include responsive-cycler('h-padding-small', 'padding-left' 'padding-right', '10px');
 @include responsive-cycler('h-padding', 'padding-left' 'padding-right', '20px');
@@ -80,6 +88,7 @@
 @include responsive-cycler('h-padding-xxlarge', 'padding-left' 'padding-right', '120px');
 @include responsive-cycler('h-padding-xxxlarge', 'padding-left' 'padding-right', '320px');
 
+@include responsive-cycler('padding-top-xxsmall', 'padding-top', '2px');
 @include responsive-cycler('padding-top-xsmall', 'padding-top', '5px');
 @include responsive-cycler('padding-top-small', 'padding-top', '10px');
 @include responsive-cycler('padding-top', 'padding-top', '20px');
@@ -89,6 +98,7 @@
 @include responsive-cycler('padding-top-xxlarge', 'padding-top', '120px');
 @include responsive-cycler('padding-top-xxxlarge', 'padding-top', '320px');
 
+@include responsive-cycler('padding-bottom-xxsmall', 'padding-bottom', '2px');
 @include responsive-cycler('padding-bottom-xsmall', 'padding-bottom', '5px');
 @include responsive-cycler('padding-bottom-small', 'padding-bottom', '10px');
 @include responsive-cycler('padding-bottom', 'padding-bottom', '20px');
@@ -98,6 +108,7 @@
 @include responsive-cycler('padding-bottom-xxlarge', 'padding-bottom', '120px');
 @include responsive-cycler('padding-bottom-xxxlarge', 'padding-bottom', '320px');
 
+@include responsive-cycler('padding-left-xxsmall', 'padding-left', '2px');
 @include responsive-cycler('padding-left-xsmall', 'padding-left', '5px');
 @include responsive-cycler('padding-left-small', 'padding-left', '10px');
 @include responsive-cycler('padding-left', 'padding-left', '20px');
@@ -107,6 +118,7 @@
 @include responsive-cycler('padding-left-xxlarge', 'padding-left', '120px');
 @include responsive-cycler('padding-left-xxxlarge', 'padding-left', '320px');
 
+@include responsive-cycler('padding-right-xxsmall', 'padding-right', '2px');
 @include responsive-cycler('padding-right-xsmall', 'padding-right', '5px');
 @include responsive-cycler('padding-right-small', 'padding-right', '10px');
 @include responsive-cycler('padding-right', 'padding-right', '20px');
