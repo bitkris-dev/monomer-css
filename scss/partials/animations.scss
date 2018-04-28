@@ -1,5 +1,6 @@
-.anim-forward {animation-fill-mode: forwards;}
-.anim-ease-in-out {-webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out;}
+.anim-forward { animation-fill-mode: forwards;}
+.anim-ease-in-out {animation-timing-function: ease-in-out;}
+.anim-infinite { animation-iteration-count: infinite;}
 
 .anim-duration-0 { @include prefix-cycler('animation-duration', '0s'); }
 .anim-duration-0-25 { @include prefix-cycler('animation-duration', '0.25s'); }

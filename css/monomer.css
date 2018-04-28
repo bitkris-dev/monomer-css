@@ -113,8 +113,10 @@
   animation-fill-mode: forwards; }
 
 .anim-ease-in-out {
-  -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out; }
+
+.anim-infinite {
+  animation-iteration-count: infinite; }
 
 .anim-duration-0 {
   animation-duration: 0s;
