@@ -5,7 +5,7 @@
 	display: block;
 
 	&.validation-success {
-		color: adjust-hue(darken(map-get($colors,green),10%), -30deg);
+		color: adjust-hue(map-get($colors,green-dark), -30deg);
 	}
 
 	&.validation-warning {
@@ -13,7 +13,7 @@
 	}
 
 	&.validation-danger {
-		color: darken(map-get($colors,red), 10%);
+		color: map-get($colors,red-dark);
 	}
 
 	&.validation-info {

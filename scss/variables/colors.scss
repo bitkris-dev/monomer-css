@@ -7,4 +7,15 @@ $colors: (
 	grey: grey
 ) !default;
 
+$colorsShades: ();
+
+@each $color, $hex in $colors {
+	$dark: (unquote("#{$color}-dark"): darken($hex, 10%));
+	$light: (unquote("#{$color}-light"): lighten($hex, 10%));
+	$colorsShades: map-merge($colorsShades, $dark);
+	$colorsShades: map-merge($colorsShades, $light);
+}
+
+$colors: map-merge($colors, $colorsShades);
+
 $colors-alt: () !default;
