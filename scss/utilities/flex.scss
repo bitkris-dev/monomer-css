@@ -1,4 +1,5 @@
 @include responsive-cycler('flex', 'display', 'flex');
+@include responsive-cycler('flex1', 'flex', '1');
 
 @include responsive-cycler('flex-row-reverse', 'flex-direction', 'row-reverse');
 @include responsive-cycler('flex-column-reverse', 'flex-direction', 'column-reverse');

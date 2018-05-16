@@ -1,61 +1,47 @@
+@function createRules($rule,$rules,$values) {
+	$i: index($rules, $rule);
+	@if (length($values) > 1) { @return unquote(nth($values, $i)) !important; }
+	@else { @return #{$values} !important; }
+}
+
 @mixin responsive-cycler($selector,$rules,$values) {
 	.#{$selector} {
 
-		@each $rule in $rules {
-			$i: index($rules, $rule);
-			@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-			@else { #{$rule}: #{$values} !important; }
-		}
+		// create base rule
+		@each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); }
 
-		@media (max-width: $screen-xs) {
-			&-uxs {
-				@each $rule in $rules {
-					$i: index($rules, $rule);
-					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-					@else { #{$rule}: #{$values} !important; }
-				}
-			}
-		}
 
-		@media (min-width: $screen-xs) and (max-width: $screen-sm) {
-			&-xs {
-				@each $rule in $rules {
-					$i: index($rules, $rule);
-					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-					@else { #{$rule}: #{$values} !important; }
-				}
-			}
-		}
+		// ---------------------- RESPONSIVE ----------------------
 
-		@media (min-width: $screen-sm) and (max-width: $screen-md) {
-			&-sm {
-				@each $rule in $rules {
-					$i: index($rules, $rule);
-					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-					@else { #{$rule}: #{$values} !important; }
-				}
-			}
-		}
+		// uxs only
+		@media (max-width: $screen-xs) { &-uxs { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// xs only
+		@media (min-width: $screen-xs) and (max-width: $screen-sm) { &-xs { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// sm only
+		@media (min-width: $screen-sm) and (max-width: $screen-md) { &-sm { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// md only
+		@media (min-width: $screen-md) and (max-width: $screen-lg) { &-md { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// lg only
+		@media (min-width: $screen-lg) { &-lg { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
 
-		@media (min-width: $screen-md) and (max-width: $screen-lg) {
-			&-md {
-				@each $rule in $rules {
-					$i: index($rules, $rule);
-					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-					@else { #{$rule}: #{$values} !important; }
-				}
-			}
-		}
 
-		@media (min-width: $screen-lg) {
-			&-lg {
-				@each $rule in $rules {
-					$i: index($rules, $rule);
-					@if (length($values) > 1) { #{$rule}: unquote(nth($values, $i)) !important; }
-					@else { #{$rule}: #{$values} !important; }
-				}
-			}
-		}
+		// ---------------------- UP ----------------------
 
+		// xs and up
+		@media (min-width: $screen-xs) { &-xs-up { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// sm and up
+		@media (min-width: $screen-sm) { &-sm-up { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// md and up
+		@media (min-width: $screen-md) { &-md-up { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+
+
+		// ---------------------- DOWN ----------------------
+
+		// xs and down
+		@media (max-width: $screen-sm) { &-xs-down { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// sm and down
+		@media (max-width: $screen-md) { &-sm-down { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
+		// md and down
+		@media (max-width: $screen-lg) { &-md-down { @each $rule in $rules { #{$rule}: createRules($rule,$rules,$values); } } }
 	}
 }
