@@ -9301,14 +9301,6 @@
     .no-border-bottom-right-radius-md-down {
       border-bottom-right-radius: 0px !important; } }
 
-.bordered {
-  border-width: 8px;
-  border-style: solid; }
-
-.thin-border {
-  border-width: 1px;
-  border-style: solid; }
-
 .border-red {
   border: 1px solid red !important; }
 
@@ -9449,6 +9441,14 @@
 
 .border-black {
   border: 1px solid black !important; }
+
+.bordered {
+  border-width: 8px;
+  border-style: solid; }
+
+.thin-border {
+  border-width: 1px;
+  border-style: solid; }
 
 .text-lowercase {
   text-transform: lowercase !important; }
