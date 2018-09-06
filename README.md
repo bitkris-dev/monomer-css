@@ -1,10 +1,23 @@
 ### Monomer-css
-Monomer is a very small CSS/SCSS Framework which aims to a granular atomic CSS design.
 
-### What does it offer?
-It has several classes meant to be used independently from the component or other classes used.
-**Transition/animations delays, offsets, text/background/svg colors, box-shadows, display properties** and more; everything is responsive and breakpoint-based by screen size.
+PROJECT DISCONTINUED.![](https://cdn.epilepsynewstoday.com/wp-content/uploads/2017/05/shutterstock_528333016.jpg)
 
-A more accurate description and a detailed table will come soon.
+<br />
 
-In the meanwhile (it's just temporary!), you can take a look to the source code and quickly check it by yourself.
+------
+
+<br />
+
+### Why has it been discontinued?
+
+It has been discontinued because conceptually very similar to [Bootstrap 4 Utilities](https://getbootstrap.com/docs/4.0/utilities/borders/), so a new project has born.
+
+<br/>
+
+Adding the latter and my **new package** [bootstrap4-utils-extended](https://github.com/bitkris-dev/bootstrap4-utils-extended) to your project, you can cover the same **monomer-css** functionalities with a better and lighter structure.
+
+<br />
+Please, follow the docs if you need to migrate:
+
+- [Bootstrap 4 docs](https://getbootstrap.com/docs/4.0/utilities/borders/)
+- [bootstrap4-utils-extended docs](https://github.com/bitkris-dev/bootstrap4-utils-extended#bootstrap4-utils-extended)
